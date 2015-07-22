@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Drag & Drop Modal</title>
+	<meta name="description" content="Simple draggable modal with pure Javascript, inspired by Google Modal.">
+	<meta name="author" content="Marcelo Dolce" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<button class="modal-header-btn modal-trigger btn-fixed">Open Modal</button>
+
+	<!-- modal -->
+	<div class="modal">
+		<header class="modal-header">
+			<h1 class="modal-header-title left">Title of Modal</h1>
+			<button class="modal-header-btn right modal-close" title="Close Modal">OK</button>
+		</header>
+		<div class="modal-body">
+			<section class="modal-content">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam pariatur, molestias expedita natus veniam id necessitatibus dolorum itaque cum at. Inventore quis veniam maxime, sit beatae distinctio nostrum minima minus.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, rem cum. Id eaque impedit fuga iste distinctio vero aliquam beatae.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident reprehenderit quam suscipit quaerat laudantium, nobis iure! Recusandae tempore pariatur voluptate quam necessitatibus accusamus iure a ducimus aliquam dignissimos placeat aliquid esse repudiandae neque, velit dolor inventore! Minus illum laboriosam tempora optio quisquam pariatur qui. A, aliquam suscipit numquam quo mollitia.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, rem cum. Id eaque impedit fuga iste distinctio vero aliquam beatae.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident reprehenderit quam suscipit quaerat laudantium, nobis iure! Recusandae tempore pariatur voluptate quam necessitatibus accusamus iure a ducimus aliquam dignissimos placeat aliquid esse repudiandae neque, velit dolor inventore! Minus illum laboriosam tempora optio quisquam pariatur qui. A, aliquam suscipit numquam quo mollitia.</p>
+			</section>
+		</div>
+	</div>
+	<!-- modal -->
+
+	<!-- Scripts -->
+	<script src="js/draggabilly.pkgd.js"></script>
+	<script src="js/modal.js"></script>
+	<script>
+		window.onload = function(e){ 
+		    
+			Modal.init();
+
+		};
+	</script>
+</body>
+</html>
