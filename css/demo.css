@@ -1,0 +1,16 @@
+/* GENERAL */
+*{ box-sizing: border-box;}
+
+html{
+	height: 100%;
+}
+body{
+	background: #f9f9f9 url("../img/bg.jpg") no-repeat left top;
+	font-family: 'Lato', arial;
+}
+
+.btn-fixed{
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+}
